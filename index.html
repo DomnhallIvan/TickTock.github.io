@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introducción al DOM</title>
+    <link rel="stylesheet" href="dom.css" />
+    <link id="theme" rel="stylesheet" href="/css/light.css" />
+     
+    
+  </head>
+  <body>
+    
+  <h2>Eventos</h2>
+  <button id="btn-theme">💪</button>
+  <div>
+  <p>Elige un tema para el documento:</p>
+  <form>
+    <input
+      name="theme"
+      id="radio-light"
+      type="radio"
+      data-theme="/css/light.css"
+      data-name="Claro"
+      checked
+    />
+    <label for="radio-light">Tema claro</label>
+    <br />
+    <input
+      name="theme"
+      id="radio-dark"
+      type="radio"
+      data-theme="/css/dark.css"
+      data-name="Obscuro"
+    />
+    <label for="radio-dark">Tema obscuro</label>
+    <br />
+    <input
+      name="theme"
+      id="radio-sky"
+      type="radio"
+      data-theme="/css/sky.css"
+      data-name="Cielo"
+    />
+    <label for="radio-sky">Tema cielo</label>
+    <br />
+    <input
+      name="theme"
+      id="radio-sun"
+      type="radio"
+      data-theme="/css/sun.css"
+      data-name="Soleado"
+    />
+    <label for="radio-sun">Tema soleado</label>
+    <br />
+    <footer>
+      <p>
+        <small>Sitio hecho por mí.</small>
+      </p>
+    </footer>
+    <script src="/cosas.js"></script>
+  </header>
+  </body>
+</html>
